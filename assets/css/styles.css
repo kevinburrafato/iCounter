@@ -44,6 +44,8 @@
     padding-top:100px;
     background-color: #F6F6F6;
     height: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .counter-box {
@@ -75,7 +77,7 @@
     height: 70px;
     font-size: 30px;
     margin-top: 50px;
-    margin-left: 90px;
+    margin-left: 56px;
 }
 
 .footer {
@@ -124,6 +126,37 @@ i.fa-github {
     background-color:#F6F6F6;
 }
 
+/* Media Query For Iphone */
+@media only screen and (min-width: 375px) {
+
+    .counter-box button {
+        margin-left: 61px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+
+    .counter-box button {
+        margin-left: 61px;
+    }
+}
+
+/* Media Query For Iphone */
+@media only screen and (min-width: 375px) {
+
+    .counter-box button {
+        margin-left: 61px;
+    }
+}
+
+/* Media Query For Iphone Plus*/
+@media only screen and (min-width: 375px) {
+
+    .counter-box button {
+        margin-left: 75px;
+    }
+}
+
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 
@@ -146,7 +179,7 @@ i.fa-github {
     }
     
     .counter-box button {
-        margin-left: 175px;
+        margin-left: 125px;
     }
 }
 
@@ -173,7 +206,7 @@ i.fa-github {
     }
     
     .counter-box button {
-        margin-left: 130px;
+        margin-left: 120px;
     }
 
     .footer h6{
