@@ -1,0 +1,182 @@
+.navbar {
+    background-color: #023246;
+}
+
+.brand {
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: #F6F6F6;
+    height: 550px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #023246;
+}
+
+.hero h4{
+    font-size: 30px;
+    color: #023246;
+    padding-bottom: 30px;
+}
+
+.hero a{
+    font-size: 18px;
+    border: 2px solid #023246;
+    border-radius: 10px;
+    color: #023246;
+    background-color: #F6F6F6;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+.hero a:hover {
+    color: #F6F6F6;
+    background-color: #023246;
+}
+
+
+.counter-container-fluid {
+    padding-top:100px;
+    background-color: #F6F6F6;
+    height: 620px;
+}
+
+.counter-box {
+    border: 2px solid #023246;
+    padding-top: 30px;
+    border-radius: 15px;
+    background-color: #287094;
+    height: 300px;
+}
+
+.countNumber {
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #023246;
+}
+
+.countNumber h1 {
+    color: #F6F6F6;
+    font-size: 70px;
+    text-align: center;
+}
+
+.counter-box button {
+    color: #F6F6F6;
+    background-color: #023246;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #023246;
+    height: 300px;
+}
+
+.footer h6{
+    color: #F6F6F6;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.footer img{
+    border-radius: 10px;
+}
+
+.footer a {
+    color: #F6F6F6;
+    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+} 
+
+.footer i.fa-twitter,
+i.fa-pinterest-p {
+    margin-top: 7px;
+    margin-left: 2px;
+    font-size: 25px;
+}
+
+.footer i.fa-linkedin-in,
+i.fa-github {
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+.footer a:hover {
+    color: #023246;
+    background-color:#F6F6F6;
+}
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+
+    .hero {
+        padding-top: 125px;
+    }
+
+    .counter-container-fluid {
+        height: 720px;
+    }
+    
+    .counter-box {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .countNumber {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .counter-box button {
+        margin-left: 175px;
+    }
+}
+
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
+    .hero {
+        padding-top: 150px;
+    }
+
+    .counter-container-fluid {
+        height: 720px;
+    }
+    
+    .counter-box {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+    
+    .countNumber {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .counter-box button {
+        margin-left: 130px;
+    }
+
+    .footer h6{
+        font-size: 18px;
+    }
+}
